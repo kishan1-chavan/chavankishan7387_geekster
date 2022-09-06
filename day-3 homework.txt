@@ -1,0 +1,83 @@
+// "static void main" must be defined in a public class.
+public class Main {
+    public static void main(String[] args) {
+       // Store the result of the following expressions in “ans” variable of type boolean and print
+
+//1. boolean ans = 40>=2*45 || 30>=2*10
+boolean ans;
+        ans = 40>=2*45 || 30>=2*10;
+System.out.println(ans);
+        
+//2. boolean ans= 40>3 && 20>3
+boolean k;
+k = 40>3 && 20>3;
+System.out.println(k);
+
+//3. boolean ans= 50>7 && 30>=40
+        boolean a;
+        a = 50>7 && 30>=40;
+        System.out.println(a);
+    
+//4. boolean ans= 50<25 || 30>2
+boolean m;
+m = 50<25 || 30>20;
+System.out.println(m);
+    
+//5. boolean ans= 70<=75 || 40<=2
+        boolean j;
+        j = 70<=75 || 40<=2;
+            System.out.println(j);
+    
+//6. boolean ans = !( 45==35)
+        boolean h;
+        h = !( 45==35);
+        System.out.println(h);
+    
+//7. boolean ans= (20<32 && 2!=30) && (35>=20 || 35!=25)
+        boolean b;
+        b =  (20<32 && 2!=30) && (35>=20 || 35!=25);
+        System.out.println(b);
+    
+//8. boolean ans= !(20>=30)
+        boolean l;
+        l = !(20>=30);
+        System.out.println(l);
+        
+//9. boolean ans= !(30>40)
+boolean f;
+f = !(30>40);
+  System.out.println(f);
+
+//10. boolean ans = !(40==2*20) && 75==15*5
+        boolean d;
+        d =!(40==2*20) && 75==15*5;
+        System.out.println(d);
+
+//11. boolean ans = !(40>=40) || (50>=2*25)
+        boolean s;
+        s =  !(40>=40) || (50>=2*25);
+         System.out.println(d);
+    
+//12. boolean ans = !(10*5==50) || (2*3==7 || 9==28/3)
+        boolean v;
+        v = !(10*5==50) || (2*3==7 || 9==28/3);
+         System.out.println(v);
+        
+//13. boolean ans = (20*5==100 || 10!=10) && (30*2==60 || 50<40)
+        boolean p;
+        p = (20*5==100 || 10!=10) && (30*2==60 || 50<40);
+        System.out.println(p);
+    
+//14. boolean ans = ( !(90>=40) && !(80>36) )
+        boolean g;
+        g =  ( !(90>=40) && !(80>36) );
+         System.out.println(g);
+
+//15. boolean ans = ( (50>=20) || 90>2*45) && ( 30!=2*15)
+        boolean w;
+        w =  ( (50>=20) || 90>2*45) && ( 30!=2*15);
+        System.out.println(w);
+    }
+}
+
+     
